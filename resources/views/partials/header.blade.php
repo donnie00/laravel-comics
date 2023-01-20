@@ -1,5 +1,5 @@
-<nav>
-   <div class="nav">
+<nav class="">
+   <div class="nav w-100">
       <p>logo e link navbar</p>
       <ul>
          <li>a</li>

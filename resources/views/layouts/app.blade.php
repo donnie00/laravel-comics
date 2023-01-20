@@ -12,9 +12,10 @@
 <body>
    @include('partials/header')
 
-   @yield('mainSection')
+   <div class="container">
+      @yield('content')
+   </div>
 
    @include('partials/footer')
-
 </body>
 </html>
