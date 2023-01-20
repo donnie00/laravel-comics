@@ -1,3 +1,23 @@
 @import "~bootstrap/scss/bootstrap";
 
-@vite ('resources/js/app.js');
+.card-body {
+    img {
+        aspect-ratio: 1/1;
+        object-fit: cover;
+        object-position: top;
+        margin-bottom: 0.5rem;
+    }
+
+    .card-label {
+        font-size: 0.7rem;
+        color: white;
+        text-transform: uppercase;
+    }
+}
+
+.jumbo {
+    background-image: url("../images/jumbotron.jpg");
+    background-position: top;
+    background-size: cover;
+    height: 30vh;
+}

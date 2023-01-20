@@ -1,6 +1,13 @@
 @extends('./layouts/app')
 
-@section('content')
-   <h1>Main content here</h1>
-   <a href="comicsList">show all comics</a>
+@section('jumbo')
+   @include('partials/jumbotron')
+@endsection
+
+@section('comics')
+   @include('partials/comicsBanner')
+@endsection
+
+@section('linksBanner')
+   @include('partials/linksBanner')
 @endsection
