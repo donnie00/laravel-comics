@@ -1,13 +1,13 @@
 @extends('./layouts/app')
 
 @section('jumbo')
-   @include('partials/jumbotron')
+   @include('./partials/jumbotron')
 @endsection
 
 @section('content')
-   @include('partials/comicsBanner')
+   @include('./partials/comicDetails')
 @endsection
 
 @section('linksBanner')
-   @include('partials/linksBanner')
+   @include('./partials/linksBanner')
 @endsection

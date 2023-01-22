@@ -15,7 +15,7 @@
    @include('partials/header')
 
    @yield('jumbo')
-   @yield('comics')
+   @yield('content')
    @yield('linksBanner')
 
    @include('partials/footer')

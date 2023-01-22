@@ -21,3 +21,51 @@
     background-size: cover;
     height: 30vh;
 }
+
+.bg-logo {
+    background-image: url(/resources/images/dc-logo-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-heroes-img {
+    background-image: url(/resources/images/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-link {
+    height: 70px;
+}
+
+.nav-link {
+    &.active {
+        border-bottom: 3px solid blue;
+    }
+}
+
+.search-bar-border {
+    border: 0;
+    border-radius: 0;
+
+    border-bottom: 2px solid $primary;
+}
+
+.footer-links {
+    li {
+        font-size: 0.9rem;
+    }
+}
+
+.comic-show {
+    border: 2px solid $light;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: -10rem;
+}
+
+.bg-light-grey {
+    background-color: $gray-100;
+}
